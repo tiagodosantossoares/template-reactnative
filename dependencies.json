@@ -3,7 +3,14 @@
   "axios": "latest",
   "prop-types": "latest",
   "react-native-gesture-handler": "latest",
-  "react-navigation": "latest",
+  
   "reactotron-react-native": "latest",
-  "styled-components": "latest"
+  "styled-components": "latest",
+
+  "@react-native-async-storage/async-storage": "~1.15.0",
+  "@react-navigation/native": "^6.0.8",
+  "@react-navigation/native-stack": "^6.5.0",
+  
+  "react-native-safe-area-context": "3.3.2",
+  "react-native-screens": "~3.10.1"
 }

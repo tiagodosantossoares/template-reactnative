@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import Routes from './src/routes'
 
 import { AuthProvider } from './src/contexts/AuthContext'
+import GlobalStyle from "./styles/global"; // Arquivo que criamos
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <AuthProvider>
           <StatusBar backgroundColor="#1d1d2e" barStyle="light-content" translucent={false} />
           <Routes/>
+          <GlobalStyle />
       </AuthProvider>
     </NavigationContainer>
   );
